@@ -32,13 +32,13 @@ You can also find it on ~~[BetterDiscord](https://betterdiscord.app/theme/TODO)~
 Add the following line to your "Online Themes" imports:
 
 ```css
-@import url("https://mairiosipla.github.io/unshittify-discord/UnShittifySource.theme.css");
+@import url("https://FishysPop.github.io/unshittify-discord/UnShittifySource.theme.css");
 ```
 
 And the following for rounded icons:
 
 ```css
-@import url("https://mairiosipla.github.io/unshittify-discord/RoundIconsSource.theme.css");
+@import url("https://FishysPop.github.io/unshittify-discord/RoundIconsSource.theme.css");
 ```
 
 > [!NOTE]  
@@ -52,8 +52,8 @@ Check out [https://userstyles.world/style/21817](https://userstyles.world/style/
 
 Download the raw CSS files:
 
-- [UnShittifySource.theme.css](https://mairiosipla.github.io/unshittify-discord/UnShittifySource.theme.css)
-- [RoundIconsSource.theme.css](https://mairiosipla.github.io/unshittify-discord/RoundIconsSource.theme.css)
+- [UnShittifySource.theme.css](https://FishysPop.github.io/unshittify-discord/UnShittifySource.theme.css)
+- [RoundIconsSource.theme.css](https://FishysPop.github.io/unshittify-discord/RoundIconsSource.theme.css)
 
 And place them in your themes folder.
 
@@ -67,13 +67,13 @@ And place them in your themes folder.
 Simply add this CSS at the top of your file:
 
 ```css
-@import url("https://mairiosipla.github.io/unshittify-discord/UnShittifySource.theme.css");
+@import url("https://FishysPop.github.io/unshittify-discord/UnShittifySource.theme.css");
 ```
 
 Optionally, you can also include rounded icons:
 
 ```css
-@import url("https://mairiosipla.github.io/unshittify-discord/RoundIconsSource.theme.css");
+@import url("https://FishysPop.github.io/unshittify-discord/RoundIconsSource.theme.css");
 ```
 > [!NOTE]  
 > You'll need both themes for rounded icons.

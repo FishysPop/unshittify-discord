@@ -25,22 +25,12 @@ If you are discord and wish for this to be taken down, please message me at hell
 
 *//* ------------------------------------------------------- */
 
-/* Imports */
-/* Refreshed Seamless Chat Bar by NSPG911 */
-@import url("https://nspc911.github.io/themes/vencord/RefreshedSeamlessChatBar.theme.css");
-
 /* SETTINGS */
 :root {
 	/* Right padding of the top bar */
 	--top-bar-padding: 220px;
 	/* Icon scale */
 	--icon-scale: 1;
-
-	/* NSPG911 Refreshed Seamless Chat Bar */
-	/* Custom padding for the chat box */
-	--rscb-chat-box-padding: 8px;
-	/* Whether you want the chat to not move up and down when someone starts typing */
-	--rscb-no-jump-chat: 0;
 }
 
 /* User modal */
@@ -106,19 +96,14 @@ If you are discord and wish for this to be taken down, please message me at hell
 
 
 /* Align discord logo and left bar */
-.tree_ef3116 {
-	margin-top: 1rem;
-}
+.itemsContainer_ef3116, .tree_ef3116 {
+	height: calc(100% - 0.5rem);
+    background: var(--bg-overlay-app-frame, var(--background-base-lowest));
 
-/* Chat input bar */
-.channelTextArea_f75fb0   {
-	margin-bottom: var(--space-xs);
-	.inner__74017 {
-		--custom-channel-textarea-text-area-max-height: 56px;
-		--custom-channel-textarea-text-area-height: var(
-			--custom-channel-textarea-text-area-max-height
-		);
-	}
+}
+.tree_ef3116 {
+	margin-top: 0.20rem;
+    background: var(--bg-overlay-app-frame, var(--background-base-lowest));
 }
 
 /* Fix for search bar */
@@ -142,6 +127,16 @@ If you are discord and wish for this to be taken down, please message me at hell
 }
 .visual-refresh .guilds_c48ade {
 	margin-bottom: 0;
+}
+.wrapper_ef3116 {
+    background: var(--bg-overlay-app-frame, var(--background-base-lowest)) !important;
+}
+.notice__6e2b9 {
+    position: relative;
+    top: 0.04rem;
+    margin-right: 12.4rem;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 /* _____ Server icons scale _____________________________________________________*/
 
@@ -177,9 +172,7 @@ If you are discord and wish for this to be taken down, please message me at hell
 .stack_dbd263[aria-label="Servers"] > .listItem__650eb > div:nth-child(2) .wrapper_cc5dd2 {
 	zoom: var(--icon-scale);
 }
-.visual-refresh .listItem__650eb .wrapper_cc5dd2:not(.wrapper__48112) {
 
-}
 
 /* HIDE USERNAMES (FOR DEV SNAPSHOTS) */
 /* .username__0a06e, .overflow__82b15 {
