@@ -34,7 +34,7 @@ If you are discord and wish for this to be taken down, please message me at hell
 }
 
 /* User modal */
-.visual-refresh .panels_c48ade {
+.visual-refresh .panels_c48ade, .visual-refresh .panels__5e434 {
 	right: var(--space-xs) !important;
 	left: auto;
 	bottom: var(--space-xs);
@@ -43,7 +43,7 @@ If you are discord and wish for this to be taken down, please message me at hell
 }
 
 /* Remove top row*/
-.visual-refresh .base_c48ade {
+.visual-refresh .base_c48ade, .visual-refresh .base__5e434 {
 	grid-template-rows: [top] 0 [titleBarEnd] min-content [noticeEnd] 1fr [end];
 }
 
@@ -60,7 +60,7 @@ If you are discord and wish for this to be taken down, please message me at hell
 
 	background-color: var(--background-tertiary);
 	border-radius: var(--radius-sm);
-	top: 6px;
+	top: 9px;
 	right: var(--space-xs);
 	left: unset;
 	padding: 0;
@@ -125,7 +125,7 @@ If you are discord and wish for this to be taken down, please message me at hell
 .itemsContainer_ef3116, .tree_ef3116 {
 	height: calc(100% - 1rem);
 }
-.visual-refresh .guilds_c48ade {
+.visual-refresh .guilds_c48ade, .visual-refresh .wrapper_ef3116 {
 	margin-bottom: 0;
 }
 .wrapper_ef3116 {
