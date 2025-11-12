@@ -97,7 +97,7 @@ If you are discord and wish for this to be taken down, please message me at hell
 
 /* Align discord logo and left bar */
 .itemsContainer_ef3116, .tree_ef3116 {
-	height: calc(100% - 0.5rem);
+	height: calc(100% - 0rem);
     background: var(--bg-overlay-app-frame, var(--background-base-lowest));
 
 }
