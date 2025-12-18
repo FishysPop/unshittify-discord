@@ -34,7 +34,6 @@ If you are discord and wish for this to be taken down, please message me at hell
 }
 
 /* User modal */
-.visual-refresh .panels_c48ade, .visual-refresh .panels__5e434 {
 .visual-refresh .panels_c48ade,
 .visual-refresh .panels__5e434,
 .visual-refresh ._5e434347c823b592-panels{
@@ -44,7 +43,6 @@ If you are discord and wish for this to be taken down, please message me at hell
 	width: calc(100% - var(--space-xs) * 2 - var(--custom-guild-list-width));
 	z-index: 200 !important;
 }
-
 /* Remove top row */
 .visual-refresh .base_c48ade,
 .visual-refresh .base__5e434,
