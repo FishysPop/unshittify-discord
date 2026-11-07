@@ -34,9 +34,7 @@ If you are discord and wish for this to be taken down, please message me at hell
 }
 
 /* User modal */
-.visual-refresh .panels_c48ade,
-.visual-refresh .panels__5e434,
-.visual-refresh ._5e434347c823b592-panels{
+.visual-refresh .panels_pog62O {
 	right: var(--space-xs) !important;
 	left: auto;
 	bottom: var(--space-xs);
@@ -44,16 +42,13 @@ If you are discord and wish for this to be taken down, please message me at hell
 	z-index: 200 !important;
 }
 /* Remove top row */
-.visual-refresh .base_c48ade,
-.visual-refresh .base__5e434,
-.visual-refresh ._5e434347c823b592-base{
+.visual-refresh .base_pog62O {
 	grid-template-rows: [top] 0 [titleBarEnd] min-content [noticeEnd] 1fr [end];
 }
 
 
 /* Top bar and dragging functionality */
-.trailing_c38106,
-.c38106a3f0c3ca76-trailing {
+.trailing_3zSH5d {
 	gap: 2px;
 
 	/* margin-left: calc(var(--custom-guild-list-width) + var(--space-8)); */
@@ -62,7 +57,7 @@ If you are discord and wish for this to be taken down, please message me at hell
 	z-index: 2000 !important;
 	position: absolute;
 
-	background-color: var(--background-tertiary);
+	background-color: var(--background-base-low);
 	border-radius: var(--radius-sm);
 	top: 9px;
 	right: var(--space-xs);
@@ -70,8 +65,8 @@ If you are discord and wish for this to be taken down, please message me at hell
 	padding: 0;
 	overflow: hidden;
 }
-.bar_c38106::before,
-._5e434347c823b592-base .c38106a3f0c3ca76-bar::before {
+.bar_3zSH5d::before,
+.base_pog62O .bar_3zSH5d::before {
 	content: "";
 	position: fixed;
 	top:0;
@@ -81,117 +76,112 @@ If you are discord and wish for this to be taken down, please message me at hell
 	width: 200%;
 	z-index: -1 !important;
 }
-.bar_c38106,
-._5e434347c823b592-base .c38106a3f0c3ca76-bar {
+.bar_3zSH5d,
+.base_pog62O .bar_3zSH5d {
 	margin-left: var(--custom-guild-sidebar-width);
 	height: 15px;
 	min-height: unset !important;
 }
 
 /* Hide bar title */
-.title__85643,
-.title_c38106,
-.c38106a3f0c3ca76-title {
+.title_3zSH5d {
 	display: none !important;
 }
 
 /* Make top icons not overlap bar icons*/
-.container__9293f,
-._9293f6b2fc12398a-upperContainer {
+.container_ybUK7Z,
+.upperContainer_ybUK7Z {
 	padding-right: var(--top-bar-padding) !important;
 	/* overflow: hidden !important; */
 }
 
 
 /* Align discord logo and left bar */
-.tree_ef3116,
-._1f388bcaa446c0c8-tutorialContainer {
+.tree_5dqHTG,
+.tutorialContainer_1IyMuq {
 	height: calc(100% - 0rem);
-    background: var(--bg-overlay-app-frame, var(--background-base-lowest));
+	background: var(--background-base-lowest);
 
 }
-.tree_ef3116 {
+.tree_5dqHTG {
 	margin-top: 0.20rem;
-    background: var(--bg-overlay-app-frame, var(--background-base-lowest));
+	background: var(--background-base-lowest);
 }
 
 /* Fix for search bar */
-.search__49676 > div,
-._974928fe84ca9647-focused > div {
+.search_i16Ad0 > div,
+.focused_i16Ad0 > div {
 	display: flex !important;
 	flex-shrink: 1 !important;
 }
-.searchBar__97492,
-._974928fe84ca9647-searchBar {
+.searchBar_i16Ad0 {
 	width: auto !important;
 	min-width: 100px !important;
 }
-._496769951eb140fe-search{
-    margin-right: 10px;
+.search_i16Ad0 {
+	margin-right: 10px;
 }
 
 /* Fix for user modal rescaling */
-.actionButtons_e131a9 .button__201d5 {
+.actionButtons_9U6LUN .button_9U6LUN {
 	padding: unset !important;
 }
 
 /* Fix for server bar overflowing */
-.itemsContainer_ef3116, 
-.tree_ef3116,
-.ef3116c2da186559-wrapper {
+.scroller_5dqHTG,
+.tree_5dqHTG,
+.wrapper_5dqHTG {
 	height: calc(100% - 1rem);
 }
-.visual-refresh .guilds_c48ade, .visual-refresh .wrapper_ef3116 {
+.visual-refresh .guilds_pog62O, .visual-refresh .wrapper_5dqHTG {
 	margin-bottom: 0;
 }
-.wrapper_ef3116 {
-    background: var(--bg-overlay-app-frame, var(--background-base-lowest)) !important;
+.wrapper_5dqHTG {
+	background: var(--background-base-lowest) !important;
 }
-.notice__6e2b9 {
-    position: relative;
-    top: 0.04rem;
-    margin-right: 12.4rem;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
+.notice_INrZ8n {
+	position: relative;
+	top: 0.04rem;
+	margin-right: 12.4rem;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
 }
 /* _____ Server icons scale _____________________________________________________*/
 
 
 /* Hides second nav btns panel when settings menu is open */
-.c38106a3f0c3ca76-systemBar{
-    display: none !important;
+.systemBar_3zSH5d{
+	display: none !important;
 }
 
 /* FOLDER SCALING */
-.wrapper__48112 {
+.folderGroup_RTMSuZ {
 	--guildbar-folder-size: calc(48px / var(--icon-scale));
 	--custom-guild-list-width: calc((var(--guildbar-avatar-size) + var(--custom-guild-list-padding)*2)/var(--icon-scale));
 	zoom: var(--icon-scale);
 }
 /* Open folder Icon */
-.folder__48112, .folderIconWrapper__48112 {
-    height: calc(var(--guildbar-folder-size) * var(--icon-scale));
-    width: calc(var(--guildbar-folder-size) * var(--icon-scale));
+.folderButton_RTMSuZ, .folderIconWrapper_RTMSuZ {
+	height: calc(var(--guildbar-folder-size) * var(--icon-scale));
+	width: calc(var(--guildbar-folder-size) * var(--icon-scale));
 }
 /* Folder BG */
-.visual-refresh .expandedFolderBackground__48112 {
-    left: calc(var(--custom-guild-list-padding)/var(--icon-scale) - (var(--guildbar-folder-size)* var(--icon-scale) - var(--guildbar-avatar-size)/var(--icon-scale))/2);
+.visual-refresh .folderGroupBackground_RTMSuZ {
+	left: calc(var(--custom-guild-list-padding)/var(--icon-scale) - (var(--guildbar-folder-size)* var(--icon-scale) - var(--guildbar-avatar-size)/var(--icon-scale))/2);
 	width: calc(var(--guildbar-folder-size) * var(--icon-scale));
 }
 /* Closed folders inner preview*/
-.visual-refresh .closedFolderIconWrapper__48112 {
+.visual-refresh .folderPreviewWrapper_RTMSuZ {
 	zoom: var(--icon-scale);
 }
 /* DC logo */
-.tutorialContainer__1f388 > .listItem__650eb > .listItemWrapper__91816, .tutorialContainer__650eb > .listItem__650eb > .listItemWrapper__91816 {
-	zoom: var(--icon-scale);
-}
-#app-mount > div.appAsidePanelWrapper_a3002d > div.notAppAsidePanel_a3002d > div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.content_c48ade > div.sidebar_c48ade > nav > ul > div.itemsContainer_ef3116 > div > div:nth-child(5) > div.listItemWrapper__91816 > div {
+.tutorialContainer_1IyMuq .listItemWrapper_tQErD4,
+.tutorialContainer_rwEpIL .listItemWrapper_tQErD4 {
 	zoom: var(--icon-scale);
 }
 
 /* SERVER SCALING */
-.stack_dbd263[aria-label="Servers"] > .listItem__650eb > div:nth-child(2) .wrapper_cc5dd2 {
+.guilds_pog62O .listItem_rwEpIL .wrapper_JJ-hgR {
 	zoom: var(--icon-scale);
 }
 
