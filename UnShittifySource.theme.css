@@ -62,7 +62,7 @@ class names were updated for current Discord builds. See LICENSE.md.
 
 	background-color: var(--background-base-low);
 	border-radius: 0 0 0 var(--radius-sm);
-	top: 8px;
+	top: 0;
 	right: 0;
 	left: unset;
 	padding: 0;
@@ -82,8 +82,10 @@ class names were updated for current Discord builds. See LICENSE.md.
 .bar_3zSH5d,
 .base_pog62O .bar_3zSH5d {
 	margin-left: var(--custom-guild-sidebar-width);
-	height: 15px;
+	margin-top: 8px;
+	height: var(--custom-app-top-bar-height);
 	min-height: unset !important;
+	background-color: var(--background-base-low);
 }
 
 /* Hide bar title */
