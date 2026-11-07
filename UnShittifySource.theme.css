@@ -1,19 +1,22 @@
 /**
  * @name UnShittifySource
- * @author Nak.kiwi
+ * @author FishysPop
  * @description Fix the blatant design mistakes and disalignments :D
  * @version 0.0.1
  */
 
 /* -----------------  UN-SHITIFY DISCORD ------------------- *//*
 
-By @nak.kiwi (You can call me Nakki, feel free visit wy cozy website at nak.kiwi)
+Forked and maintained by FishysPop. Original by @nak.kiwi (you can call them Nakki, feel free to visit their cozy website at nak.kiwi)
 
 A personal project to fix the blatant design mistakes and disalignments in the Discord app.
 If it's unreadable, it's by design, I didn't want you to steal my secret sauce.
 
 This is a discord unoficcial theme, it is not affiliated with Discord in any way.
-If you are discord and wish for this to be taken down, please message me at hello@nak.kiwi
+If you are discord and wish for this to be taken down, please message the original author at hello@nak.kiwi
+
+Licensed under CC BY-NC-SA 4.0. This is a modified version of the original work;
+class names were updated for current Discord builds. See LICENSE.md.
 
 
 *//* ------------------------------------------------------- */
@@ -97,15 +100,8 @@ If you are discord and wish for this to be taken down, please message me at hell
 
 
 /* Align discord logo and left bar */
-.tree_5dqHTG,
-.tutorialContainer_1IyMuq {
-	height: calc(100% - 0rem);
-	background: var(--background-base-lowest);
-
-}
 .tree_5dqHTG {
 	margin-top: 0.20rem;
-	background: var(--background-base-lowest);
 }
 
 /* Fix for search bar */
@@ -128,16 +124,8 @@ If you are discord and wish for this to be taken down, please message me at hell
 }
 
 /* Fix for server bar overflowing */
-.scroller_5dqHTG,
-.tree_5dqHTG,
-.wrapper_5dqHTG {
-	height: calc(100% - 1rem);
-}
 .visual-refresh .guilds_pog62O, .visual-refresh .wrapper_5dqHTG {
 	margin-bottom: 0;
-}
-.wrapper_5dqHTG {
-	background: var(--background-base-lowest) !important;
 }
 .notice_INrZ8n {
 	position: relative;

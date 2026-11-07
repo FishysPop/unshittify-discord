@@ -1,11 +1,13 @@
 # UnShittify Discord
-By [@nak.kiwi](https://instagram.com/nak.kiwi) (You can call me Nakki, feel free visit wy cozy website at nak.kiwi) :3
+Forked and maintained by [@FishysPop](https://github.com/FishysPop). Original by [@nak.kiwi](https://instagram.com/nak.kiwi) (you can call them Nakki, feel free to visit their cozy website at nak.kiwi) :3
 
 A personal project to fix the design mistakes and disalignments in the Discord app.
 If it's unreadable, it's by design, I didn't want you to steal my secret sauce.
 
+This is a modified version of the original work (class names updated for current Discord builds), distributed under the same license.
+
 **Disclaimer:** This is a discord unoficcial theme, it is not affiliated with Discord in any way.
-If you are discord and wish for this to be taken down, please message me at hello@nak.kiwi
+If you are discord and wish for this to be taken down, please message the original author at hello@nak.kiwi
 
 - [Installation](#installation)
 - [Use to Create Other Themes](#use-to-create-other-themes)
