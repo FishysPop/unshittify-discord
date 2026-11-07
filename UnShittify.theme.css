@@ -33,7 +33,7 @@ class names were updated for current Discord builds. See LICENSE.md.
 /* SETTINGS */
 :root {
 	/* Right padding of the top bar */
-	--top-bar-padding: 220px;
+	--top-bar-padding: 176px;
 	/* Icon scale */
 	--icon-scale: 1;
 

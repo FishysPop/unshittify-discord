@@ -31,7 +31,7 @@ class names were updated for current Discord builds. See LICENSE.md.
 /* SETTINGS */
 :root {
 	/* Right padding of the top bar */
-	--top-bar-padding: 220px;
+	--top-bar-padding: 176px;
 	/* Icon scale */
 	--icon-scale: 1;
 }
@@ -92,8 +92,7 @@ class names were updated for current Discord builds. See LICENSE.md.
 }
 
 /* Make top icons not overlap bar icons*/
-.container_ybUK7Z,
-.upperContainer_ybUK7Z {
+.container_ybUK7Z {
 	padding-right: var(--top-bar-padding) !important;
 	/* overflow: hidden !important; */
 }
