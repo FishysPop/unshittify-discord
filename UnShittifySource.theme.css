@@ -62,7 +62,7 @@ class names were updated for current Discord builds. See LICENSE.md.
 
 	background-color: var(--background-base-low);
 	border-radius: 0 0 0 var(--radius-sm);
-	top: 0;
+	top: 8px;
 	right: 0;
 	left: unset;
 	padding: 0;
