@@ -113,7 +113,7 @@ If using [Installation](#installation) methods 1 or 4, you can change the follow
 /* SETTINGS */
 :root {
 	/* Right padding of the top bar */
-	--top-bar-padding: 176px;
+	--top-bar-padding: 168px;
 	/* Icon scale */
 	--icon-scale: 1;
 
@@ -125,7 +125,7 @@ If using [Installation](#installation) methods 1 or 4, you can change the follow
 }
 ```
 
-- `--top-bar-padding`: The right padding of the top bar. This is the space between the top bar and the right side of the window. Default is `176px`. You needn't change this unless you modified the top bar width, perhaps by removing some icons.
+- `--top-bar-padding`: The right padding of the top bar. This is the space between the top bar and the right side of the window. Default is `168px`. You needn't change this unless you modified the top bar width, perhaps by removing some icons.
 - `--icon-scale`: The scale of the icons. Default is `1`. You can set this to any value you want, but I recommend keeping it between `1` and `1.3`.
 - `--rscb-chat-box-padding`: The padding of the "user is typing" box. Default is `8px`.
 - `--rscb-no-jump-chat`: Whether you want the chat to not move up and down when someone starts typing. Default is `0` (disabled). Set it to `1` to enable it.
